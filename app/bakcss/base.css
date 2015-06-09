@@ -13,10 +13,6 @@ h2 {
   font-size: 1.35rem;
   text-rendering: optimizeLegibility; }
 
-.about h2 {
-  color: #4c5e3b;
-  text-align: center; }
-
 h3 {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 2rem;
@@ -64,24 +60,10 @@ header {
   height: 100vh;
   padding-top: 2vw;
   width: 100%; }
-  .about h2 {
-    font-size: 11vw;
-    font-weight: 100;
-    margin-bottom: 0.75rem; }
   .about .innercontainer {
     max-width: 95vw; }
   .about article {
     transition: width 0.7s ease-out; }
-
-.bios {
-  display: flex;
-  -webkit-flex-flow: column;
-  flex-flow: column;
-  flex-direction: column; }
-
-.a-dude {
-  margin: 0 auto;
-  max-width: 50%; }
 
 main {
   border-bottom: solid 5px #f2f5ef;
@@ -120,5 +102,3 @@ main {
       font-weight: 200;
       line-height: 1.4;
       text-align: justify; } }
-
-/*# sourceMappingURL=base.css.map */
